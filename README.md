@@ -11,7 +11,23 @@ This module has been published to the PowerShell Gallery. Use the following comm
 
 # Usage
 
-To be filled in.
+For connecting using the Secure Application Model, you can use the following code:
+
+```powershell
+Connect-ExchangeOnline -DelegatedOrganization "Delegate.onmicrosoft.com" -ExchangeRefreshToken "YourVerylongRefreshToken" -UPN "A-Valid-UPN"   
+```
+
+If you wish to see the banner to discovery the new commands, you can connect using the following code:
+
+```powershell
+Connect-ExchangeOnline -DelegatedOrganization "Delegate.onmicrosoft.com" -ExchangeRefreshToken "YourVerylongRefreshToken" -UPN "A-Valid-UPN" -ShowBanner
+```
+
+The module also directly connects you to the Exchange Online environment by creating a remote session. This session can have any prefix you want by executing the following code:
+```powershell
+Connect-ExchangeOnline -DelegatedOrganization "Delegate.onmicrosoft.com" -ExchangeRefreshToken "YourVerylongRefreshToken" -UPN "A-Valid-UPN" -ShowBanner -prefix "exchangeonline"
+```
+
 
 # Contributions
 
