@@ -1,5 +1,5 @@
 # ExchangeOnlineManagement.SAM
-See https://www.cyberdrain.com/automating-with-powershell-automating-warranty-information-reporting/ for more information.
+See https://www.cyberdrain.com/automating-with-powershell-faster-exchange-powershell-commands/ for more information.
 
 This is a PowerShell module that was created out of the ExchangeOnline module, to give partners access to the faster cmdlets, and Exchange Online Management easily with PowerShell
 
